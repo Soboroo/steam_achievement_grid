@@ -24,7 +24,7 @@
   <div class="container" style="display: flex; flex-wrap: wrap">
     {#await getSchemaForGame() then schema}
       {#each schema as achievement}
-        <Card icon={achievement.icon} title={achievement.displayName} description={achievement.description} />
+        <Card icon={achievement.icon} title={achievement.displayName} description={achievement.description} internal={achievement.name} />
       {/each}
     {/await}
   </div>

@@ -2,6 +2,7 @@
   export let icon;
   export let title;
   export let description;
+  export let internal;
 </script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
@@ -15,6 +16,7 @@
       </div>
       <div class="media-content">
         <p class="title is-4">{title}</p>
+        <p class="subtitle is-6">{internal}</p>
       </div>
     </div>
 
