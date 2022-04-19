@@ -5,7 +5,6 @@
   export let internal;
 </script>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
 <div class="card">
   <div class="card-content">
     <div class="media">
